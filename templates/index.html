@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+  /* p{
+    margin-left: 450px;
+    margin-top: 150px;
+  }
+  img{
+    margin-left: 500px;
+  } */
+  body{
+    background-color: #333;
+    align-items: center;
+
+  }
+  .row{
+    padding-left: 40%;
+  }
+  h2{
+    position: relative;
+    color: white;
+    left: 50px;
+  }
+  h1{
+    position: relative;
+    right: 50px;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+    {% if data %}
+    <br>
+    <br>
+    <br>
+    <h1>IMAGE RECOGNISED</h1>
+    <img height="250px" width="200px" src="https://s3.amazonaws.com/imagerecognisation/{{data}}">
+    <p><h2>{{d}}</h2></p>
+    {% else %}
+    <h1>NO IMAGE MATCHED</h1>
+    {% endif %}
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>Cover Template for Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Custom styles for this template -->
+  <style>
+    /*
+ * Globals
+ */
+
+    /* Links */
+    a,
+    a:focus,
+    a:hover {
+      color: #fff;
+    }
+
+    /* Custom default button */
+    .btn-secondary,
+    .btn-secondary:hover,
+    .btn-secondary:focus {
+      color: #333;
+      text-shadow: none;
+      /* Prevent inheritance from `body` */
+      background-color: #fff;
+      border: .05rem solid #fff;
+    }
+
+
+    /*
+ * Base structure
+ */
+
+    html,
+    body {
+      height: 100%;
+      background-color: #333;
+    }
+
+    body {
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -ms-flex-pack: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+      box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    }
+
+    .cover-heading {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .cover-container {
+      max-width: 80em;
+      margin-bottom: 100px;
+    }
+
+    .lead_cont {
+      font-size: 25px;
+      margin-bottom: 55px;
+    }
+
+    .row {
+      width: 100%;
+      margin-top: 200px;
+      padding: 25px;
+      font-size: 1.5rem;
+    }
+
+    .crd {
+      margin-top: 30px
+    }
+
+    .card-title {
+      color: black;
+    }
+
+    .foot {
+      align-items: center;
+      margin-left: 500px;
+      margin-top: 60px
+    }
+
+    .footbt {
+      position: absolute;
+      margin-right: 100px;
+    }
+
+    .card-text {
+      color: black;
+    }
+
+    .leftside {
+      padding: inherit;
+      text-align: left;
+      font-weight: 400;
+    }
+
+    /*
+ * Header
+ */
+    .masthead {
+      margin-bottom: 2rem;
+    }
+
+    .masthead-brand {
+      margin-bottom: 0;
+    }
+
+    .nav-masthead .nav-link {
+      padding: .25rem 0;
+      font-weight: 700;
+      color: rgba(255, 255, 255, .5);
+      background-color: transparent;
+      border-bottom: .25rem solid transparent;
+    }
+
+    .nav-masthead .nav-link:hover,
+    .nav-masthead .nav-link:focus {
+      border-bottom-color: rgba(255, 255, 255, .25);
+    }
+
+    .nav-masthead .nav-link+.nav-link {
+      margin-left: 1rem;
+    }
+
+    .nav-masthead .active {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+
+    @media (min-width: 48em) {
+      .masthead-brand {
+        float: left;
+      }
+
+      .nav-masthead {
+        float: right;
+      }
+    }
+
+
+    /*
+ * Cover
+ */
+    .cover {
+      padding: 0 1.5rem;
+    }
+
+    .cover .btn-lg {
+      padding: .75rem 1.25rem;
+      font-weight: 700;
+    }
+
+    .addc {
+      color: black;
+    }
+
+    .img-preview {
+      width: 256px;
+      height: 256px;
+      position: relative;
+      border: 5px solid #F8F8F8;
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .img-preview>div {
+      width: 100%;
+      height: 100%;
+      background-size: 256px 256px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /*
+ * Footer
+ */
+    .mastfoot {
+      color: rgba(255, 255, 255, .5);
+    }
+  </style>
+</head>
+
+<body class="text-center">
+
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="top">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand">Inteligent Album Manager</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#row">Upload</a>
+          <a class="nav-link" href="#row"></a>
+        </nav>
+      </div>
+    </header>
+
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading">Using AWS Servies to make things<br> Smarter.</h1>
+      <h1 class="lead_cont">Learning the power of <br>AWS Rekognition<br>to increase efficency &<br>ease of sorting images</h1>
+      <p class="lead">
+        <a href="#row" class="btn btn-lg btn-secondary"> Detect</a>
+      </p>
+    </main>
+
+    <div class="row" id="row">
+      <div class="col-md-8">
+        <div class="leftside">
+          <h2>Introduction</h2>
+          Many people make photo albums of their
+          famiy or close friends or relatives but have a hard time finding photos of
+          particular people which they want or to sort them accoring to that.
+          Here, our application comes into work, where you can simply choose some photos as a collection of all the different
+          faces available in the album and sort all the photos at once by the face detected in each photo.
+          The application is purely based on AWS Rekognition client (and it's services) and AWS S3 (Storage).
+          <br>
+          The basic working of the application is to take a source image
+          and compare it with all the faces in the collection to find a match,
+          as soon as we get a match, the program will put that particular photo in the folder of the person whose
+          face was detected.It'll run in loop until we get all our photos sorted, all we need to do is just upload the photos and ask our Intelligent
+          Album Manger to do it's magic.
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="card w-25 col-md-4" style="height:14rem">
+        <div class="card-body">
+          <h5 class="card-title">UPLOAD FILE</h5>
+          <br>
+          <form class="up" action="index.html" method="post" enctype="multipart/form-data">
+            <input style="color:black" type="file" name="image" value="image">
+            <br>
+            <br>
+            <input type="submit" class="btn btn-primary" name="upload" value="upload">
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <a href="#top" class="btn btn-primary footbt">Top</a>
+        <p class="foot">Copyright &#169 2020 RSS Pvt Ltd</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
